@@ -17,6 +17,12 @@ module.exports = {
     coinmarketcap: "4b4bba89-0428-438e-8f6f-e9b5c0bc40a4",
   },
   networks: {
+    local: {
+      url: `http://127.0.0.1:8545/`,
+      accounts: [
+        "0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80",
+      ],
+    },
     rinkeby: {
       url: `https://eth-rinkeby.alchemyapi.io/v2/Y-IbWAqM4rTEYX8pDRXyHcjJ_RLQZPM5`,
       accounts: [RINKEBY_PRIVATE_KEY],
